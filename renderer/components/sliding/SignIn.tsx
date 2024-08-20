@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../logo";
 import { Button } from "../ui/button";
+import LogoOld from "../logo-old";
 
 const SigninForm = () => {
 
@@ -15,11 +16,11 @@ const SigninForm = () => {
         <div className="p-8 flex-1">
           <div className="mx-auto overflow-hidden">
             <div className="p-8 flex flex-col justify-center items-center gap-4">
-              <Logo />
+              <LogoOld />
               <h1 className="text-3xl font-bold text-indigo-600 text-center">
                 v1.0
               </h1>
-              <Button onClick={openApp} variant="outline" className="hover:bg-indigo-500 hover:text-white">Ingresar a la v1.0</Button>
+              <Button onClick={openApp} variant="default" className="hover:bg-indigo-500 hover:text-white">Ingresar a la v1.0</Button>
             </div>
           </div>
         </div>

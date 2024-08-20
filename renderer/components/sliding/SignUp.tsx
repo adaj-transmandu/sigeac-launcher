@@ -17,7 +17,7 @@ const SignupForm = () => {
               <h1 className="text-3xl font-bold text-indigo-600 text-center">
                 v2.0
               </h1>
-              <Button onClick={onUrlOpen} variant="outline" className="hover:bg-indigo-500 hover:text-white">Ingresar a la v2.0</Button>
+              <Button onClick={onUrlOpen} variant="default" className="hover:bg-indigo-500 hover:text-white">Ingresar a la v2.0</Button>
             </div>
           </div>
         </div>
