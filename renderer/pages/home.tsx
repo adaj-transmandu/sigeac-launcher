@@ -8,7 +8,7 @@ export default function HomePage() {
             <Head>
                 <title>SIGEAC - Launcher</title>
             </Head>
-            <LoginPage />
+            <NoSlideLoginPage />
         </div>
     );
 }
