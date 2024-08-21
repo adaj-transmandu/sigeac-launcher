@@ -18,8 +18,8 @@ let mainWindow;
   await app.whenReady()
 
   mainWindow = createWindow('main', {
-    width: 1024,
-    height: 768,
+    width: 1280,
+    height: 720,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },

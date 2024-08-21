@@ -11,7 +11,7 @@ const SigninForm = () => {
   };
 
   return (
-    <div className="selection:bg-indigo-500 selection:text-white border-r-2 border-r-blue-300">
+    <div className="selection:bg-indigo-500 selection:text-white border-r-2 border-r-blue-300 mb-[20px]">
       <div className="flex justify-center items-center">
         <div className="p-8 flex-1">
           <div className="mx-auto overflow-hidden">
