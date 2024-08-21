@@ -13,3 +13,7 @@ app
 dist
 
 /.vscode
+
+# locks
+package-lock.json
+yarn.lock

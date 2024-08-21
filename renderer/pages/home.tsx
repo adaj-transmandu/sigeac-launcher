@@ -1,4 +1,3 @@
-import LoginPage from "@/components/sliding/LoginPage";
 import NoSlideLoginPage from "@/components/sliding/NoSlideLoginPage";
 import Head from "next/head";
 
