@@ -56,9 +56,9 @@ ipcMain.on('open-app', (event, appPath) => {
     console.error(`stderr de la app: ${stderr}`);
 
     // Cerrar la ventana principal después de abrir la aplicación
-    if (mainWindow) {
-      mainWindow.minimize();
-    }
+
+    mainWindow.minimize();
+
   });
 });
 ipcMain.on('open-url', (event, url) => {

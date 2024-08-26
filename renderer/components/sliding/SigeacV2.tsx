@@ -3,7 +3,7 @@ import { useState } from "react";
 import Logo from "../logo";
 import { Button } from "../ui/button";
 
-const SignupForm = () => {
+const SigeacV2 = () => {
   const onUrlOpen = () => {
     window.ipc.openUrl("http://localhost:3000")
   }
@@ -26,4 +26,4 @@ const SignupForm = () => {
   );
 };
 
-export default SignupForm;
+export default SigeacV2;

@@ -1,4 +1,4 @@
-import NoSlideLoginPage from "@/components/sliding/NoSlideLoginPage";
+import NoSlidePage from "@/components/sliding/NoSlidePage";
 import Head from "next/head";
 
 export default function HomePage() {
@@ -7,7 +7,7 @@ export default function HomePage() {
             <Head>
                 <title>SIGEAC - Launcher</title>
             </Head>
-            <NoSlideLoginPage />
+            <NoSlidePage />
         </div>
     );
 }

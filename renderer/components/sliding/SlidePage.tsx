@@ -1,11 +1,11 @@
 import { useState } from "react";
-import SigninForm from "./SignIn";
-import SignupForm from "./SignUp";
 import LeftOverlayContent from "./LeftOverlay";
 import RightOverlayContent from "./RightOverlay";
+import SigeacV1 from "./SigeacV1";
+import SigeacV2 from "./SigeacV2";
 
 
-const LoginPage = () => {
+const SlidePage = () => {
   const [isAnimated, setIsAnimated] = useState(false);
   const overlayBg =
     "bg-gradient-to-r from-blue-800 via-violet-600 to-blue-500";
@@ -13,11 +13,10 @@ const LoginPage = () => {
   return (
     <div className="h-4/5 w-4/5 bg-white relative overflow-hidden rounded-lg">
       <div
-        id="signin"
         className={`bg-white absolute top-0 left-0 h-full w-1/2 flex justify-center items-center transition-all duration-700 ease-in-out z-20 ${isAnimated ? "translate-x-full opacity-0" : ""
           }`}
       >
-        <SigninForm />
+        <SigeacV1 />
       </div>
 
       <div
@@ -28,7 +27,7 @@ const LoginPage = () => {
           }`}
       >
         <div className="h-full w-full flex justify-center items-center">
-          <SignupForm />
+          <SigeacV2 />
         </div>
       </div>
 
@@ -68,4 +67,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default SlidePage;

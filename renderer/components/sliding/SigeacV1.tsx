@@ -1,13 +1,10 @@
-import { useState } from "react";
-import Logo from "../logo";
-import { Button } from "../ui/button";
 import LogoOld from "../logo-old";
+import { Button } from "../ui/button";
 
-const SigninForm = () => {
+const SigeacV1 = () => {
 
   const openApp = () => {
-    console.log('abriendo')
-    window.ipc.openApp('C:\\AVPRO_SOURCE\\dssavpro.exe')
+    window.ipc.openApp('C:\\SIGEAC\\sigeac_v10.exe')
   };
 
   return (
@@ -29,4 +26,4 @@ const SigninForm = () => {
   );
 };
 
-export default SigninForm;
+export default SigeacV1;
